@@ -6,7 +6,7 @@ import io.appium.java_client.MobileBy;
 public class Locators {
 
 	public static By joinThriveButton = MobileBy.name("Join Thrive");
-
+    //create account
 	public static By firstNameText = MobileBy.AccessibilityId("Enter your First Name");
 	public static By lastNameText = MobileBy.AccessibilityId("Enter your Last Name");
 	public static By emailText = MobileBy.AccessibilityId("Enter your Email");
