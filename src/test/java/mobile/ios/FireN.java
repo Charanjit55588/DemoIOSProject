@@ -27,16 +27,10 @@ class FireN {
 
 	@Test(priority = 1, enabled = false)
 	public void signIn() throws InterruptedException, MalformedURLException {
-		// Login object1= new Login(driver);
-		// object1.successfulAttempt();
-
-		// CreateAccount account=new CreateAccount();
-		// account.createAccount();
-		// System.out.println("Sign In Method in Fire Class");
-
+		
 		LoginNew successlogin = new SuccessfulLogin("bob@mailinator.com", "Password1234");
 		successlogin.setCredentails();
-		System.out.println("Sign In Method in Fire Class");
+		System.out.println("Sign In");
 
 	}
 
@@ -44,7 +38,7 @@ class FireN {
 	public void createAccount() throws InterruptedException, MalformedURLException {
 		CreateAccount account = new CreateAccount();
 		account.createAccount();
-		System.out.println("Sign In Method in Fire Class");
+		System.out.println("Create Account");
 	}
 
 	@Test(priority = 3, enabled = false)
