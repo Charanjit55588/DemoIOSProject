@@ -1,4 +1,4 @@
-package newtopia.ios;
+package mobile.ios;
 
 /**
  * Hello world!

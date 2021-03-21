@@ -25,7 +25,7 @@ class FireN {
 		driver.quit();
 	}
 
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void signIn() throws InterruptedException, MalformedURLException {
 		// Login object1= new Login(driver);
 		// object1.successfulAttempt();
@@ -47,7 +47,7 @@ class FireN {
 		System.out.println("Sign In Method in Fire Class");
 	}
 
-	@Test(priority = 3, enabled = true)
+	@Test(priority = 3, enabled = false)
 	public void resetMyPassword() throws InterruptedException, MalformedURLException {
 		ForgotPassword resetPassord = new ForgotPassword();
 		resetPassord.resetPassword();
